@@ -26,8 +26,11 @@ repositories {
 }
 
 dependencies {
+    compile "org.jetbrains.kotlin:kotlin-reflect"
     compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
     testCompile "org.jetbrains.kotlin:kotlin-reflect:$kotlin_version"
+    testCompile "org.jetbrains.kotlin:kotlin-test"
+    testCompile "org.jetbrains.kotlin:kotlin-test-junit"
 
     testCompile("org.jetbrains.spek:spek-api:1.1.5") {
         exclude group: 'org.jetbrains.kotlin'
