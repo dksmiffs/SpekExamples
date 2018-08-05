@@ -1,5 +1,7 @@
 # spek-gradle-kotlin [![ci-badge]][ci-travis]
 
+_**Note:**  I'm choosing to archive this repo on Github, because I've found Spek to be less mature than JUnit5 for Kotlin usage._
+
 Hello world for a [Spek], [Kotlin], and [Gradle] combination.
 
 ## Usage
